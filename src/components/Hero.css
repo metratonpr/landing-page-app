@@ -1,0 +1,11 @@
+:root{
+    --hero-bg-color: #0f172a;
+    --hero-text-color: #e5e7eb;
+    --hero-muted: #a1a1aa;
+    --hero-primary: #60a5fa;
+    --hero-primary-strong: #3b82f6;
+    --hero-card: #111827;
+    --hero-ring: #93c5fd;
+    --hero-radius: 18px;
+    --hero-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
