@@ -4,10 +4,11 @@ export const Header = () => {
     return (
         <>
             <header className='header'>
+               <div className="logo">Minha Empresa</div>
                 <nav className='navbar'>
                     <ul>
                         <li>
-                            <a href="#home">Home</a>
+                            <a href="#">Home</a>
                         </li>
                         <li>
                             <a href="#sobre">Sobre</a>
