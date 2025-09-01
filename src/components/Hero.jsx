@@ -1,9 +1,5 @@
+import './Hero.css';
 export const Hero = () => {
-    // Titulo forte e objetivo transmitindo a essência do site
-    //subtitulo opcional, explicar rapidamente o diferencial
-    //Imagem ou ilustração relevante ao conteudo do site.
-    //bota do chamado para ação (cta = call to action )
-    // (call to action) para incentivar o usuario a explorar
     return (
         <section className="hero">
             <div className="hero__container">
@@ -30,8 +26,7 @@ export const Hero = () => {
                 <div className="hero__visual">
                     <div className="hero__mock"></div>
                 </div>
-            </div>
-        </div>
+            </div>       
         </section >
     )
 }

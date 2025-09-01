@@ -9,3 +9,18 @@
     --hero-radius: 18px;
     --hero-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
 }
+
+.hero {
+  color: var(--hero-text-color); /* Texto principal */
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(96,165,250,.20), transparent 60%), /* brilho azul */
+    radial-gradient(800px 400px at 120% 20%, rgba(236,72,153,.18), transparent 60%), /* brilho roxo */
+    var(--hero-bg-color); /* fundo sólido */
+}
+
+.hero__container {
+  max-width: 1120px; /* Largura máxima do container */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  padding: 1.5rem; /* Espaçamento interno */
+  min-height: 88vh; /* Altura mínima para ocupar a tela */
+}
